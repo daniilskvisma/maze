@@ -79,13 +79,8 @@ const mazeModule = (function() {
       }
     }
   
+    createPoligon(maze);
+    keyPress();
     
-    return {
-      start: function() {
-        createPoligon(maze);
-        keyPress();
-      }
-    };
   })();
   
-  mazeModule.start();
